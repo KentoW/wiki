@@ -29,7 +29,8 @@ class Wiki():
 def main():
     wiki = Wiki()
     wiki.set_query("初音ミク")
-    print wiki.get_content()
+    wiki_json = wiki.get_content()
+    print wiki_json
 
 if __name__ == "__main__":
     main()
