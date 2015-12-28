@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*- 
-# Wikipedia SandBox から json形式で色々抽出するスクリプト
+# Wikipedia SandBox から テキスト情報を色々抽出するスクリプト
 import sys
 import urllib2
 import json as js
@@ -29,8 +29,8 @@ class Wiki():
 def main():
     wiki = Wiki()
     wiki.set_query("初音ミク")
-    wiki_json = wiki.get_content()
-    print wiki_json
+    content = wiki.get_content()
+    print content
 
 if __name__ == "__main__":
     main()
