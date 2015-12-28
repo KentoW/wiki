@@ -12,6 +12,6 @@ from wiki import Wiki
 
 wiki = Wiki()
 wiki.set_query("初音ミク")      # 対象を設定
-content = wiki.get_content()  # 設定したwikipediaページのJSONを取得
+content = wiki.get_content()    # 設定したwikipediaページのテキスト情報を取得
 print content
 ```
