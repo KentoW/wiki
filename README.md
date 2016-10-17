@@ -6,6 +6,9 @@ rivisionの指定もできるが，最新記事のみを収集．
 機能は最小限に抑える．
 ##使い方
 基本的な使い方はsample.pyを参照．
+sample1.py (アニメタイトル一覧の取得)
+sample2.py (アニメ記事内容の取得)
+sample3.py (アニメのあらすじ取得)
 ```python
 # Sample code.
 from wiki import Wiki
