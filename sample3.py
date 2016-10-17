@@ -11,7 +11,7 @@ tagger = MeCab.Tagger()
 p = re.compile(ur"\[(.+)\|(.+)\]")
 
 
-def main(args):
+def main():
     database = []
     for strm in open("./anime_wiki_contents.txt", "r"):
         if strm.startswith("@boc"):
